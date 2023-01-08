@@ -148,6 +148,8 @@ body {
     /* max-width: 100%; */
     height: 70px;
     background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 
@@ -264,7 +266,11 @@ form#search-form .searchText {
     border-radius: 50%;
     text-align: center;
     color: #8d99af;
-    
+    transition: 0.2s all linear;
+}
+
+.banner-nav .categories li .icon:hover {
+    background-color: #2b2d42;
 }
 
 .banner-nav .categories li .icon img {
@@ -272,4 +278,92 @@ form#search-form .searchText {
 }
 
 
+.popular-categories {
+    margin-top: 120px;
+    height: 801px;
+}   
 
+.popular-categories .section-heading {
+    height: 167px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.popular-categories .section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+    font-weight: 700;
+    line-height: 44px;
+    position: relative;
+    color: #333;
+}
+
+.popular-categories .section-heading h6 {
+    font-size: 15px;
+    font-family: 500;
+    color: #8d99af;
+}
+
+.popular-categories .section-services {
+    height: 634px;
+    position: relative;
+    background-color: #2b2d42;
+    border-radius: 7px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.popular-categories .section-services .menu-services {
+    width: 25%;
+    padding-right: 18px;
+}
+
+.popular-categories .section-services .menu-services .thumb {
+    height: 126px;
+    background-color: #8d99af;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 30px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    transition: 0.4s all linear;
+    color: #fff;
+}
+
+
+.popular-categories .section-services .menu-services .thumb:not(:last-of-type) {
+    margin-bottom: 1px;
+}
+
+.popular-categories .icon {
+    display: inline-block;
+    width: 66px;
+    height: 66px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 78px;
+    background-color: #fff;
+    margin-right: 15px;
+}
+
+.popular-categories .section-services .menu-services .thumb:hover {
+    background-color: #2b2d42;
+    color: #fff;
+}
+
+.service-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.service-desc {
+    width: 41.6667%;
+}
+
+.service-img {
+    width: 58.3333%;
+}
