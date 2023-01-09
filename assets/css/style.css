@@ -319,7 +319,7 @@ form#search-form .searchText {
     padding-right: 18px;
 }
 
-.popular-categories .section-services .menu-services .thumb {
+.popular-categories .section-services .menu-services .menu-service-item {
     height: 126px;
     background-color: #8d99af;
     font-size: 15px;
@@ -335,7 +335,7 @@ form#search-form .searchText {
 }
 
 
-.popular-categories .section-services .menu-services .thumb:not(:last-of-type) {
+.popular-categories .section-services .menu-services .menu-service-item:not(:last-of-type) {
     margin-bottom: 1px;
 }
 
@@ -350,20 +350,85 @@ form#search-form .searchText {
     margin-right: 15px;
 }
 
-.popular-categories .section-services .menu-services .thumb:hover {
+.popular-categories .section-services .menu-services .menu-service-item:hover {
     background-color: #2b2d42;
     color: #fff;
 }
 
+/* MENU */
+.menu-services:not(:hover) .second-service{
+    background-color: #2b2d42!important;
+}
+
+.second-service {
+    background-color: #2b2d42;
+}
+
+.first-service {
+    background-color: #8d99af;
+}
+
+.second-service:not(:hover) {
+    display: none;
+}
+
+.second-service:not(:hover) .first-service {
+    display: block;
+}
+
+/* MENU */
+
 .service-content {
     display: flex;
-    flex-direction: row;
+    width: 75%;
+    height: 100%;
+    position: absolute;
+    left: 25%;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .service-desc {
     width: 41.6667%;
+    padding: 60px;
+    line-height: 24px;
+    color: #fff;
+}
+
+.service-desc h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.service-desc p {
+    margin-bottom: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    width: 100%;
 }
 
 .service-img {
     width: 58.3333%;
+    padding: 60px;
+}
+
+
+.popular-categories .section-services .main-white-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+.popular-categories .section-services .main-white-button a {
+    width: 100%;
+    padding: 12px 25px;
+    text-decoration: none;
+}
+
+.popular-categories .section-services .main-white-button a i {
+    font-size: 12px;
+    line-height: 22px;
 }
