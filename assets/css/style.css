@@ -669,3 +669,123 @@ form#search-form .searchText {
     font-size: 12px;
     line-height: 22px
 }
+
+footer {
+    margin-top: 80px;
+    border-top: 1px solid #eee;
+    display: block;
+}
+
+footer .main-footer {
+    width: 1320px;
+    display: flex;
+    height: 210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+}
+
+.footer-item {
+    width: 33.3333%;
+    padding: 0 12px;
+}
+
+.footer-item .logo img{
+    max-width: 163px;
+    margin-bottom: 30px;
+}
+
+.footer-item p {
+    color: #2a2a2a; 
+    line-height: 30px;
+    font-size: 15px;
+}
+
+
+.helpful-link h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #8d99af;
+    margin-bottom: 30px;
+    margin-left: 45px;
+}
+
+.helpful-link .list-links {
+    display: flex;
+    margin: 0 45px;  
+
+}
+
+.helpful-link .list-links .list-left,.list-right {
+    width: 50%; 
+}
+
+.helpful-link .list-links ul li a {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    line-height: 24px;
+    color: #2a2a2a;
+    cursor: pointer;
+}
+
+.helpful-link .list-links ul li a:hover {
+    text-decoration: underline;
+    color: #8d99af;
+}
+
+
+.contact-us h4 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #8d99af;
+    margin-bottom: 30px;
+}
+.contact-us p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 25px;
+}
+
+.contact-us .phone {
+    display: flex;
+    width: 100%;
+    justify-content: left;
+}
+
+.contact-us .phone a {
+    width: 50%;
+    color: #2a2a2a;
+    text-decoration: none;
+}
+
+.contact-us .phone a:hover {
+    text-decoration: underline;
+    color: #8d99af;
+}
+
+footer .sub-footer {
+    width: 1320px;
+    display: block;
+    height: 181px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    border-top: 1px solid #eee;
+}
+
+footer .sub-footer p {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 30px;
+}
+
+footer .sub-footer p a {
+    text-decoration: none;
+    color: #2a2a2a;
+}
+
+footer .sub-footer p a:hover {
+    color: #0a58ca;
+}
